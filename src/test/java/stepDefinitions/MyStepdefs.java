@@ -34,7 +34,6 @@ public class MyStepdefs {
         System.out.println(attribute);
         act.click(driver.findElement(By.xpath("//a[@title='Active Link']"))).perform();
         driver.quit();
-        driver.close();
 
     }
 }
